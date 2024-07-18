@@ -3,7 +3,7 @@
 const { Probot } = require('probot');
 
 const app = new Probot({
-  privateKey: process.env.SHA256, // Remove "
+  privateKey: process.env.SHA256, // Remove "222
   
 
 app.on('pull_request.opened', async (context) => {
